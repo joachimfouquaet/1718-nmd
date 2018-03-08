@@ -1,0 +1,222 @@
+
+
+nav{
+	    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+nav h1{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+}
+nav ul li {
+    margin: 4%;
+}
+header h2{
+	color: white !important;
+    padding-bottom: 5%;
+}
+header{
+	background-image:url("../afbeeldingen/background.jpg");
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	margin:auto;
+    display:flex;
+    background-attachment: fixed;
+}
+header img{
+	width: 15%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+}
+header .zoneonder{
+    display: flex;
+    justify-content: center;
+}
+header section article h3{
+    font-family: 'EB Garamond', serif !important;
+    color: white;
+}
+header .zoneonder article p{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+header section article h3{
+    animation-name: fade;
+    animation-duration: 4s;
+}
+.arrow{
+    position: absolute;
+bottom: 15%;
+margin-left:50.5%;
+}
+.unu
+{
+margin-top: 6px;
+}
+
+.unu, .doi, .trei
+{
+-webkit-animation: mouse-scroll 1s infinite;
+-moz-animation: mouse-scroll 1s infinite;
+}
+
+.unu
+{
+-webkit-animation-delay: .1s;
+-moz-animation-delay: .1s;
+-webkit-animation-direction: alternate;
+margin:auto;
+}
+
+.doi
+{
+-webkit-animation-delay: .2s;
+-moz-animation-delay: .2s;
+-webkit-animation-direction: alternate;
+margin:auto;
+}
+
+.trei
+{
+-webkit-animation-delay: .3s;
+-moz-animation-delay: .3s;
+-webkit-animation-direction: alternate;
+margin:auto;
+}
+
+
+
+
+.mouse
+{
+height: 21px;
+width: 14px;
+border-radius: 10px;
+transform: none;
+border: 2px solid white;
+position: absolute;
+    bottom: 20%;
+    margin-left:50%;
+}
+
+.wheel
+{
+height: 5px;
+width: 2px;
+display: block;
+margin: 5px auto;
+background: white;
+}
+
+.wheel
+{
+-webkit-animation: mouse-wheel 1.2s ease infinite;
+-moz-animation: mouse-wheel 1.2s ease infinite;
+}
+
+p, a ,h3{
+    font-family: 'Nunito', sans-serif !important;
+}
+#programma{
+	    display: flex;
+    justify-content: space-around;
+    /* height: 14vh; */
+    align-items: flex-end;
+}
+#programma img{
+	width: 10%;
+}
+#gallerij{
+	    margin-top: 5%;
+    border-top: 5px solid red;
+}
+#gallerij img{
+    float: left;
+    width: 33.3%;
+}
+main article h3{
+    text-align: center;
+}
+main article{
+    margin-bottom: 5%;
+    padding: 5%;
+}
+#container a {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin: auto;
+    display: block;
+    width: 10%;}
+
+#container {
+    width: 1145px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;}
+    #gegevens {
+        width: 38%;
+        float: left;
+        height: 500px;
+        margin: 0 15px 0 0;
+    }
+    
+    form {
+        width: 50%;
+        float: left;
+        margin: 0 0 0 10%;
+    }
+    input{
+        font-size:15px;
+    }
+    
+    input, select, textarea {
+        width: 98%;
+        border: none;
+        background-color: #F1F1F1;
+        margin: 0 0 10px 0;
+        padding: 10px 0 10px 2%;
+        font-size:15px;
+    }
+    
+    #Submit{
+        background-color:#9ea5ab;
+        width:25%;
+        display:block;
+    }
+    
+    input[type=radio]{
+        margin:0% 2% 2% 2%;
+        width:10%!important;
+    }
+    input[type=checkbox]{
+        margin:3% 2% 4% 2%;
+        width:10% !important;
+    }
+    footer{
+        padding: 2rem;
+    background: #f7f7f7;
+    }
+    footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+    }
+    footer .fa {
+        margin: 1rem;
+        color: gray;
+    }
